@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Norwester';
+  src: url('./fonts/norwester.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black; 
+}
+
+body {
+  background: url('./img/lobotomia.png') no-repeat center center;
+  background-size: 1920px 1080px; 
+  font-family: 'Norwester', Arial, sans-serif;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  width: 650px;
+  margin-left: 150px; 
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.text-box p {
+  font-family: 'Norwester', sans-serif !important;
+  color: #00ff99;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  text-shadow: 0 0 6px rgba(0,255,153,0.5);
+  letter-spacing: 0.5px;
+}
